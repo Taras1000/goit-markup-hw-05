@@ -608,7 +608,10 @@ border-color: var(--hover-color);
     position: relative;
 }
 
-.product-item:hover .image-cover-text,
+.product-item:hover .image-cover-text {
+    transform: translateY(0%);
+}
+
 .product-item:focus .image-cover-text {
     transform: translateY(0%);
 }
